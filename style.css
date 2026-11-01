@@ -1,0 +1,22 @@
+/* binhho.vn – Hồ Anh Bình | Vietcare Consulting */
+:root{
+  --navy:#142B45;
+  --gold:#C5A46D;
+  --light:#F5F6F8;
+  --charcoal:#242A31;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Inter',sans-serif;color:var(--charcoal);background:var(--light)}
+h1,h2,h3{font-family:'Be Vietnam Pro',sans-serif;font-weight:600;margin:0}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+
+/* Header */
+.nav a:hover{color:var(--gold)}
+
+/* Responsive */
+@media (max-width:640px){
+  h1{font-size:34px!important}
+  h2{font-size:26px!important}
+}
